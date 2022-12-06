@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F5F5F5;
+    }
+    .container{
+    max-width: 1191px;
+    margin: 0 auto 0;
+    padding: 0 50px;
+    }
+    .polski{
+    padding-top: 11px;
+    }
+    .list_1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    }
+    .knopk{
+    width: 132px;
+    height: 47px;
+    background: #54B257;
+    border-radius: 6px;
+    border:none;
+    color: #F5F5F5;
+    margin-right: 27px;}
+    
+.nach{
+    display: flex;
+    gap: 22px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 42px;
+    margin-top: 90px;
+}
+.txt{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    gap: 22px;
+    color: #525252;
+}
+
+.zagl{
+    margin-top: 40px;
+    font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 32px;
+color: #000000;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+font-family: 'PT Mono', monospace;
+margin-bottom: 32px;
+
+}
+.ne{
+    margin-top: 15px;
+    font-family: 'Inter', sans-serif;
+    width: 769px;
+}
+.ryd{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    margin-top: -40px;
+    margin-left: 30px;
+    border-radius: 6px;
+    border: 1px solid #D6D6D6;
+    width: 282px;
+}
+
+.menu__item{
+    padding: 14px;
+    border-bottom: 1px solid #D6D6D6;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+    transition: color 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.menu__item::after{
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #54B257;
+    border-radius: 50%;
+    display: none
+}    
+
+.menu__item:hover:after{
+    display: block;
+}
+.menu__item:hover {
+    color: #54B257;
+}
+
+.menu__item:last-child{
+    border: none;
+}
+.ddas{
+    margin-top: 32px;
+    font-family: 'PT Mono', monospace;
+    font-weight: 700;
+font-size: 20px;
+}
+.sk{
+    margin-top: 19px;
+    display: flex;
+    margin-left: 30px; 
+    font-size: 16px;
+    font-family: 'Inter', sans-serif; 
+}
+.imgi{
+    max-width: 19px;
+    margin-right: 20px;
+}
+.imgid{
+    max-width: 14px;
+    margin-right: 20px;
+}
+.podpis{
+    width: 792px;
+    margin-left: 69px;
+    font-family: 'Inter', sans-serif;
+}
+.zglv{
+    margin-top: 32px;
+    margin-bottom: 30px;
+    font-family: 'PT Mono', monospace;
+}
+.hjk{
+    margin-bottom: 80px;
+}
+.footer{ 
+    background: #54B257; 
+ 
+    padding-bottom: 19px; 
+} 
+.footer__inner{ 
+    display: flex; 
+    gap: 58px; 
+    width: 100%; 
+} 
+.footer .container{ 
+    border-bottom: 1px solid #FFFFFF;
+    padding-top: 67px; 
+} 
+.footer__item{ 
+    
+    width: 282px; 
+    gap: 32px; 
+     
+} 
+.footer__title{ 
+    font-family: 'IBM Plex Sans', sans-serif; 
+    align-self: stretch; 
+    font-style: normal; 
+    font-weight: 700; 
+    font-size: 24px; 
+    line-height: 31px; 
+    color: #FFFFFF; 
+    padding-bottom: 32px; 
+} 
+.list li{ 
+    list-style-type: none;
+    padding-bottom: 18px; 
+    font-style: normal; 
+    font-weight: 500; 
+    line-height: 140%; 
+    color: #FFFFFF; 
+} 
+.list2 li{ 
+    list-style-type: none;
+    font-style: normal; 
+    font-weight: 500; 
+    line-height: 140%; 
+    color: #FFFFFF; 
+    margin-bottom: 32px; 
+} 
+.list2 li::before{ 
+ 
+    font-style: normal; 
+    font-weight: 500; 
+    line-height: 140%; 
+    color: #FFFFFF; 
+} 
+ 
+.footer__item button{ 
+    padding: 14px 32px; 
+    gap: 10px; 
+    width: 282px; 
+    height: 47px; 
+    border-radius: 6px; 
+} 
+.btn1{ 
+    border: none;
+    background: #FFFFFF; 
+    font-family: 'PT Mono'; 
+    font-style: normal; 
+    font-weight: 700; 
+    line-height: 140%; 
+    align-items: center; 
+    text-align: center; 
+    color: #54B257; 
+    margin-bottom: 18px; 
+} 
+.btn2{ 
+    background: #54B257; 
+    border: 2px solid #FFFFFF;   
+    margin-bottom: 32px;  
+     
+    font-family: 'PT Mono'; 
+    font-style: normal; 
+    font-weight: 700; 
+    line-height: 140%; 
+    align-items: center; 
+    text-align: center; 
+    color: #FFFFFF; 
+} 
+.footer_end{ 
+    background: #54B257; 
+    padding-bottom: 81px; 
+} 
+.footer_end-inner{ 
+    display: flex; 
+    justify-content: space-between; 
+ 
+    font-style: normal; 
+    font-weight: 500; 
+    line-height: 140%; 
+    color: #FFFFFF; 
+}
+.gt{ 
+    margin-left: 2.6em; 
+    text-indent: -2.6em; 
+} 
+.gt::before{ 
+    content: url(/assets/img/10.png); 
+    margin-right: 18px; 
+    position: relative; 
+    top: 4px; 
+} 
+.gr::before{ 
+    content: url(/assets/img/phon.png); 
+    margin-right: 18px; 
+    position: relative; 
+    top: 4px; 
+} 
+.gy::before{ 
+    content: url(/assets/img/at\ sign.png); 
+    margin-right: 18px; 
+    position: relative; 
+    top: 4px; 
+}
